@@ -10,11 +10,12 @@ public class InfoAct extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_info);
-		
+
 		Bundle bundle = getIntent().getExtras();
 		int status = bundle.getInt(getString(R.string.bundle_bmi_status));
-		
-		Toast.makeText(InfoAct.this, "status="+status, Toast.LENGTH_LONG).show();
+
+		Toast.makeText(InfoAct.this, "status=" + status, Toast.LENGTH_LONG)
+				.show();
 	}
 
 }

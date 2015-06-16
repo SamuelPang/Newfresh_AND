@@ -18,19 +18,19 @@ public class BMIActivity extends Activity {
 	private EditText etWeight;
 	private Button btnCalc;
 	private TextView tvResult;
-	/// one var comm with another
+	// / one var comm with another
 	private int iStatus = -1;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_bmi);
-		/// binding widget to local object
+		// / binding widget to local object
 		etHight = (EditText) findViewById(R.id.etH);
 		etWeight = (EditText) findViewById(R.id.etW);
 		btnCalc = (Button) findViewById(R.id.btnCalc);
 		tvResult = (TextView) findViewById(R.id.tvR);
-		/// make a callback on button
+		// / make a callback on button
 		btnCalc.setOnClickListener(new OnClickListener() {
 
 			@Override
