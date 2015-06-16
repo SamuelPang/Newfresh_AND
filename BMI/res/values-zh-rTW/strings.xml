@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="计算体质指数">btnCalc</string>
+    <string name="btnCalc">计算体质指数</string>
+    <string name="tv1">身高(cm)</string>
+    <string name="tv2">体重(kg)</string>
+    <string name="rsl">结果</string>
+    <string name="str_thin">太瘦了2.</string>
+    <string name="str_normal">刚刚好2</string>
+    <string name="str_fat">太胖了2。</string>
+    <string name="str_error">Input Error2</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+        
+    <string name="btnCalc">Calc BMI</string>
+    <string name="tv1">Height(cm)</string>
+    <string name="tv2">Weight(kg)</string>
+    <string name="rsl">Result:</string>
+    
+    <string name="str_thin">u r thin, need more fan.</string>
+    <string name="str_normal">good job</string>
+    <string name="str_fat">u r fat, need more sport</string>
+    <string name="str_error">Input Error</string>
+
+    <string name="str_menu_info">Information</string>
+    <string name="str_menu_quit">Quit</string>
+
+    <string name="bundle_bmi_status">bmi_status</string>
+</resources>
